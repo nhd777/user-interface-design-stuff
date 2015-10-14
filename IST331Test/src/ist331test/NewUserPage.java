@@ -54,6 +54,7 @@ public class NewUserPage extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jTextField12 = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -63,17 +64,17 @@ public class NewUserPage extends javax.swing.JFrame {
 
         jTextField13.setText(" ");
 
-        jLabel2.setText("First Name");
+        jLabel2.setText("First Name:");
 
-        jLabel6.setText("City");
+        jLabel6.setText("City:");
 
         jPasswordField1.setText("jPasswordField1");
 
-        jLabel5.setText("Address 2");
+        jLabel5.setText("Address 2:");
 
-        jLabel11.setText("Enter Password");
+        jLabel11.setText("Enter Password:");
 
-        jLabel3.setText("Last Name");
+        jLabel3.setText("Last Name:");
 
         jTextField10.setText(" ");
 
@@ -83,35 +84,35 @@ public class NewUserPage extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setText("State");
+        jLabel7.setText("State:");
 
         jTextField6.setText(" ");
 
-        jLabel10.setText("Cell Phone");
+        jLabel10.setText("Cell Phone:");
 
         jTextField8.setText(" ");
 
         jTextField9.setText(" ");
 
-        jLabel12.setText("Retype Password");
+        jLabel12.setText("Retype Password:");
 
-        jLabel9.setText("Home Phone");
+        jLabel9.setText("Home Phone:");
 
         jTextField7.setText(" ");
 
         jTextField2.setText(" ");
 
-        jLabel8.setText("ZIP Code");
+        jLabel8.setText("ZIP Code:");
 
         jButton2.setText("Back");
 
         jTextField11.setText(" ");
 
-        jLabel1.setText("Username");
+        jLabel1.setText("Username:");
 
         jTextField12.setText(" ");
 
-        jLabel4.setText("Address 1");
+        jLabel4.setText("Address 1:");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -212,6 +213,9 @@ public class NewUserPage extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jLabel13.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel13.setText("New User Account");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -220,13 +224,19 @@ public class NewUserPage extends javax.swing.JFrame {
                 .addGap(88, 88, 88)
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(77, 77, 77))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel13)
+                .addGap(86, 86, 86))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(56, 56, 56)
+                .addContainerGap()
+                .addComponent(jLabel13)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(125, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -278,6 +288,7 @@ public class NewUserPage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
