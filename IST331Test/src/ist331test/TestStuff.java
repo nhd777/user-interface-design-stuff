@@ -5,6 +5,11 @@
  */
 package ist331test;
 
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
 /**
  *
  * @author nhd5015
@@ -15,6 +20,7 @@ public class TestStuff extends javax.swing.JFrame {
      * Creates new form TestStuff
      */
     public TestStuff() {
+
         initComponents();
     }
 
@@ -27,12 +33,21 @@ public class TestStuff extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jMenuItem1 = new javax.swing.JMenuItem();
         jPasswordField1 = new javax.swing.JPasswordField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        ReportsTab = new javax.swing.JMenuItem();
+        Splash = new javax.swing.JMenuItem();
+        LoginT = new javax.swing.JMenuItem();
+        jMenu2 = new javax.swing.JMenu();
+
+        jMenuItem1.setText("jMenuItem1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -47,6 +62,39 @@ public class TestStuff extends javax.swing.JFrame {
         jLabel1.setText("Username: ");
 
         jLabel2.setText("Password: ");
+
+        jMenu1.setText("File");
+
+        ReportsTab.setText("Reports");
+        ReportsTab.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ReportsTabActionPerformed(evt);
+            }
+        });
+        jMenu1.add(ReportsTab);
+
+        Splash.setText("Splash");
+        Splash.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SplashActionPerformed(evt);
+            }
+        });
+        jMenu1.add(Splash);
+
+        LoginT.setText("Login");
+        LoginT.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LoginTActionPerformed(evt);
+            }
+        });
+        jMenu1.add(LoginT);
+
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Edit");
+        jMenuBar1.add(jMenu2);
+
+        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -86,11 +134,26 @@ public class TestStuff extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2))
-                .addContainerGap(65, Short.MAX_VALUE))
+                .addContainerGap(46, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void ReportsTabActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReportsTabActionPerformed
+        Reports rpts = new Reports();
+        rpts.setVisible(true);
+    }//GEN-LAST:event_ReportsTabActionPerformed
+
+    private void SplashActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SplashActionPerformed
+        SplashScreen sscreen = new SplashScreen();
+        sscreen.setVisible(true);
+    }//GEN-LAST:event_SplashActionPerformed
+
+    private void LoginTActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoginTActionPerformed
+        Login logi = new Login();
+        logi.setVisible(true);
+    }//GEN-LAST:event_LoginTActionPerformed
 
     /**
      * @param args the command line arguments
@@ -125,13 +188,21 @@ public class TestStuff extends javax.swing.JFrame {
                 new TestStuff().setVisible(true);
             }
         });
+        
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuItem LoginT;
+    private javax.swing.JMenuItem ReportsTab;
+    private javax.swing.JMenuItem Splash;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
