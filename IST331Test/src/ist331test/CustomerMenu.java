@@ -34,6 +34,7 @@ public class CustomerMenu extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jButton3.setText("Create Work Order");
 
@@ -42,7 +43,7 @@ public class CustomerMenu extends javax.swing.JFrame {
 
         jButton4.setText("Update Work Order");
 
-        jButton1.setText("Update Personal Info");
+        jButton1.setText("<html><center>Update Personal<br>Info</center></html>");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
