@@ -33,6 +33,7 @@ public class SplashScreen extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Welcome");
 
         jButton1.setText("Existing User");
         jButton1.addActionListener(new java.awt.event.ActionListener() {

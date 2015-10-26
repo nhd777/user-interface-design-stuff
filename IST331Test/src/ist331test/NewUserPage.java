@@ -57,6 +57,7 @@ public class NewUserPage extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("New Users");
 
         jButton1.setText("Submit");
 

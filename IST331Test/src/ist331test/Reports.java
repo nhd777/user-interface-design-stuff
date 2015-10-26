@@ -43,6 +43,7 @@ public class Reports extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Reports");
 
         jLabel4.setText("Customer Vehicle: ");
 
