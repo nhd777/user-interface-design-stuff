@@ -35,6 +35,7 @@ public class MechanicMenu extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Mechanics Menu");
         setPreferredSize(new java.awt.Dimension(306, 239));
+        setResizable(false);
 
         jButton3.setText("Create Work Order");
 

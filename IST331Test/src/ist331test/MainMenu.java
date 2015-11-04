@@ -36,6 +36,7 @@ public class MainMenu extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Manager Menu");
+        setResizable(false);
 
         jButton3.setText("Create Work Order");
 
