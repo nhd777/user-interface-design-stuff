@@ -39,7 +39,7 @@ public class CustomerBillPay extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Bill Pay");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ist331test/credit_card_logos.gif"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ist331test/creditCardLogos.png"))); // NOI18N
 
         jButton2.setText("View Bill");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
